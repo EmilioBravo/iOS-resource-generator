@@ -11,7 +11,8 @@ No dependencies.
 
 From Terminal run:
 
-`./CreateiOSLaunchImages.sh`
+`./CreateiOSLaunchImages.sh --padColor F9782C` for Landscape input
+`./CreateiOSLaunchImagesPortrait.sh --padColor F9782C` for Portrait input 
 
 and
 
@@ -30,7 +31,6 @@ Remove variants that are not needed (e.g. iPad Portrait) from the catalogs to op
 ## For best results
 
 `Default-Input.png`:
-* Landscape
 * Aspect ratio 4:3 (with content croppable to 16:9)
 * Highest quality if at least 2208px wide
 
